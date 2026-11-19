@@ -35,15 +35,17 @@ Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA,
 - Celular com cabo.
 - Fone de ouvido.
 - Uma assinatura de IA ativa no mês do curso: veja [ferramentas, IAs e custos](docs/ferramentas-e-custos.md).
-- As contas criadas antes do primeiro dia: veja a [lista de contas](docs/contas.md). Os programas são instalados na própria aula.
+- Os programas instalados antes do primeiro dia: veja os [pré-requisitos](docs/pre-requisitos.md), separados por sistema (Windows, macOS e Linux).
+- As contas criadas antes do primeiro dia: veja a [lista de contas](docs/contas.md).
 
 ## Neste repositório
 
 | Arquivo | Conteúdo |
 |---|---|
+| [docs/pre-requisitos.md](docs/pre-requisitos.md) | O que instalar antes da primeira aula, passo a passo no Windows, no macOS e no Linux |
 | [docs/contas.md](docs/contas.md) | Os sites em que você cria conta antes da primeira aula |
 | [docs/cronograma.md](docs/cronograma.md) | Os dois dias, bloco a bloco |
 | [docs/ementa.md](docs/ementa.md) | Módulos, objetivos e exercícios |
 | [docs/ferramentas-e-custos.md](docs/ferramentas-e-custos.md) | O que cada IA e cada programa faz no vídeo, e quanto custa cada caminho |
 
-A instalação é feita no primeiro dia: o instrutor demonstra a instalação do omp e o próprio agente instala o resto. As regras do agente, os modelos e os arquivos de exercício entram neste repositório antes do curso. Ele é atualizado a cada mudança no curso.
+A instalação começa em casa, pelos [pré-requisitos](docs/pre-requisitos.md). No primeiro dia, o instrutor demonstra a instalação do omp e o próprio agente confere e instala o que faltar. As regras do agente, os modelos e os arquivos de exercício entram neste repositório antes do curso. Ele é atualizado a cada mudança no curso.

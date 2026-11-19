@@ -42,7 +42,7 @@ Para usar a IA pagando só o que gastar, em vez de assinatura. Precisa de **cart
 
 ## Não precisa de conta
 
-- **omp** e os programas que ele usa (Python, ffmpeg, Node.js, Chrome, Kdenlive...): são instalados no notebook, na própria aula, sem cadastro.
+- **omp** e os programas que ele usa (Python, ffmpeg, Node.js, Chrome, Kdenlive...): são instalados no notebook, sem cadastro. Veja os [pré-requisitos](pre-requisitos.md).
 - **GitHub:** este material é público e baixa sem conta.
 
 Preços consultados nas páginas oficiais em 17 e 19/11/2026.

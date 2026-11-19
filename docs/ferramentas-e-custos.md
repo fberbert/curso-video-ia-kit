@@ -104,7 +104,7 @@ Sobre o plano grátis do Gemini:
 
 ## Os programas que a IA usa no seu computador
 
-Todos gratuitos e disponíveis para Windows, macOS e Linux. **A instalação é feita no curso:** o instrutor demonstra a instalação do omp e, depois, você pede ao próprio agente para instalar o resto.
+Todos gratuitos e disponíveis para Windows, macOS e Linux. **Instale antes da primeira aula**, seguindo os [pré-requisitos](pre-requisitos.md). Na aula, o instrutor demonstra a instalação do omp e o próprio agente confere e instala o que faltar.
 
 | Programa | Para que serve |
 |---|---|

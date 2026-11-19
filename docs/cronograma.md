@@ -9,7 +9,7 @@ Meta do dia: sair com tudo instalado, o roteiro pronto, a narração gravada e u
 | Min | Bloco | O que acontece |
 |---|---|---|
 | 15 | Abertura | Um vídeo feito de ponta a ponta com IA, sem editor. A esteira de produção num slide só e os 3 combinados do diretor: peça com contexto, peça prévia antes do final, peça a fonte de todo número |
-| 40 | Instalação | O instrutor demonstra a instalação do omp no Windows, no macOS e no Linux. Você instala o omp no seu notebook e entra com a sua conta do ChatGPT. Depois, pede ao próprio agente para instalar o resto (Python, ffmpeg, Node.js e os demais programas). Enquanto ele instala, o instrutor apresenta o que cada programa faz |
+| 40 | Instalação | O instrutor demonstra a instalação do omp no Windows, no macOS e no Linux. Quem seguiu os [pré-requisitos](pre-requisitos.md) confere a instalação; quem não conseguiu instala agora, com ajuda. Você entra no omp com a sua conta do ChatGPT e pede ao próprio agente para instalar o que faltar (bibliotecas do Python, Playwright e a extensão do Chrome). Enquanto ele instala, o instrutor apresenta o que cada programa faz |
 | 20 | Demonstração: um vídeo em 20 minutos | Um aluno dá o tema (o negócio dele) e o instrutor pede ao agente, na frente da turma, um vídeo vertical de 20 a 30 segundos |
 | 25 | Prática: a primeira conversa | Você faz o primeiro pedido ao agente: um vídeo de celular vira vertical com legenda |
 | 20 | As IAs e o que cada uma faz | ChatGPT, Claude, Gemini, APIs pré-pagas, ElevenLabs e HeyGen: o papel de cada uma, os planos e quanto custam. Como trocar a IA por trás do agente e ver o custo de cada pedido |
