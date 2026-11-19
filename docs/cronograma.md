@@ -16,7 +16,7 @@ Meta do dia: sair com o roteiro pronto, a narração gravada e uma primeira pré
 | 10:05 | 25 | Pauta e pesquisa | Como escolher o assunto do primeiro vídeo. O agente pesquisa na internet e devolve fatos com link. Você fecha a sua pauta numa ficha |
 | 10:30 | 20 | Intervalo | Café |
 | 10:50 | 45 | Roteiro com alma | Abrir com uma história, uma pergunta central, falar com quem assiste, frase curta de impacto, chamada no fim. Você pede o roteiro, reescreve com a sua voz e lê em voz alta |
-| 11:35 | 35 | Voz | Gravar no celular, voz pronta de IA ou voz clonada. Você sai com a narração pronta (projeto A) ou com o plano de gravação (projeto B) |
+| 11:35 | 35 | Voz | Gravar no celular, voz pronta de IA (Gemini, voz Kore, sem assinatura) ou voz clonada. Você sai com a narração pronta (projeto A) ou com o plano de gravação (projeto B) |
 | 12:10 | 15 | Primeira prévia | O agente monta o rascunho: narração e telas simples |
 | 12:25 | 5 | Tarefa da semana | Gravar o que falta, anotar 3 ajustes no rascunho, escolher a música. Opcional: repetir um pedido com uma API pré-paga e anotar o custo |
 
