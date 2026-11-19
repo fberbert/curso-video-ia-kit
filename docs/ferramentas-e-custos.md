@@ -55,11 +55,19 @@ Para narrar o vídeo, o caminho mais simples é a **sua própria voz**, gravada 
 
 | Ferramenta | Plano grátis | Plano pago |
 |---|---|---|
-| [Gemini TTS](https://aistudio.google.com) (voz de IA, pelo Google AI Studio) | Sim, com limite diário. A voz recomendada no curso é a **Kore** (feminina), a que soou mais natural em português do Brasil no nosso teste | US$ 0,0045 a cada 10 segundos de áudio a partir de 01/01/2027: cerca de US$ 0,03 por minuto |
+| [Gemini TTS](https://aistudio.google.com) (voz de IA, pelo Google AI Studio) | Sim: 10 narrações por dia, no máximo 3 por minuto. A voz recomendada no curso é a **Kore** (feminina), a que soou mais natural em português do Brasil no nosso teste | US$ 0,0045 a cada 10 segundos de áudio a partir de 01/01/2027: cerca de US$ 0,03 por minuto |
 | [ElevenLabs](https://elevenlabs.io/pricing) (voz de IA e clone da sua voz) | 10 mil créditos por mês (cerca de 10 minutos de fala), **sem uso comercial**: não serve para anunciar o seu negócio | Starter: US$ 6 por mês, 30 mil créditos, clone da sua voz e uso comercial |
 | [HeyGen](https://www.heygen.com/pricing) (avatar falante) | 3 vídeos por mês de até 1 minuto, com marca d'água | Creator: US$ 29 por mês |
 
-No plano grátis do Gemini, o Google usa o conteúdo enviado para melhorar os produtos dele. O avatar aparece no curso só como demonstração.
+Sobre o plano grátis do Gemini:
+
+- O limite de 10 narrações por dia vale por projeto do Google AI Studio e zera às 5h da manhã (horário de Brasília). Os limites do seu projeto aparecem em [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit). Eles podem mudar: confira lá.
+- Cada pedido de narração conta como um, mesmo que você descarte o áudio. Revise o texto antes de gerar.
+- O Google usa o conteúdo enviado no plano grátis para melhorar os produtos dele.
+
+Para quem quiser explorar depois do curso: o Gemini tem cerca de 30 vozes (no curso só testamos três) e também clona a sua voz a partir de uma gravação ("voice replication"). No curso, o clone de voz é demonstrado na ElevenLabs.
+
+O avatar aparece no curso só como demonstração.
 
 ## Fontes
 
