@@ -25,7 +25,7 @@ Para usar a IA pagando só o que gastar, em vez de assinatura. Precisa de **cart
 | [platform.deepseek.com](https://platform.deepseek.com) | DeepSeek: das IAs mais baratas para o agente |
 | [platform.xiaomimimo.com](https://platform.xiaomimimo.com) | Xiaomi MiMo: também muito barata |
 | [openrouter.ai](https://openrouter.ai) | Uma carteira só para centenas de IAs (cobra 5,5% na recarga) |
-| [aistudio.google.com](https://aistudio.google.com) | Gemini, do Google: IA de texto e de imagem (Nano Banana), pela mesma conta Google |
+| [aistudio.google.com](https://aistudio.google.com) | Gemini, do Google, com a mesma conta do Gmail: imagens (Nano Banana) e narração por voz de IA sem assinatura. Para o agente pensar, sai mais caro que DeepSeek e MiMo |
 
 ## 3. Opcionais: outras assinaturas
 
