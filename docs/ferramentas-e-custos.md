@@ -16,6 +16,7 @@ Você conversa com o **omp**, o agente de IA. Ele pensa com uma IA de texto (Cha
 | Narração | A sua voz, a voz Kore do Gemini ou a ElevenLabs | ffmpeg limpa o ruído e nivela o volume |
 | Telas animadas (números, gráficos, títulos) | A IA de texto escreve as telas como uma página web (HTML e CSS) | Chrome desenha; Node.js com Playwright grava cada quadro |
 | Animações prontas (gráfico com número contando, rota em mapa 3D, produto se abrindo peça por peça) | As [skills de animação](#skills-de-animação): a IA só preenche os dados | HyperFrames, GSAP e three.js desenham; ffmpeg grava |
+| Personagem animado (bonecos palito que falam e conversam) | A IA escreve a ficha do personagem e as cenas em código, com a skill [`/stick-figure`](#skills-de-animação) | Chrome desenha; Kokoro, Gemini ou a sua gravação dão a voz; ffmpeg grava |
 | Corte de silêncios e "éééé" (vídeo gravado) | auto-editor | ffmpeg |
 | Legenda palavra por palavra | O tempo de cada palavra, vindo da voz de IA ou de uma transcrição do áudio | ffmpeg grava a legenda no vídeo |
 | Montagem (telas, voz, música que abaixa na fala, vertical) | Um script em Python | ffmpeg |
@@ -128,20 +129,23 @@ Skills são roteiros de trabalho que o agente segue. O curso usa as skills de an
 | `/graph` | Uma linha que se desenha enquanto o número conta até o valor final | "Gráfico do faturamento de maio a novembro: 8,2, 9,1, 8,7, 10,4, 12,9, 15,3 e 18,8 mil reais" | 10 segundos |
 | `/map-route` | Uma cidade em 3D, a rota se desenhando, o pino caindo e o cartão com tempo e distância | "Rota da loja até a casa do cliente: 4,5 km, 18 minutos" | 2 minutos |
 | `/breakdown` | Um objeto se abrindo em camadas, cada peça com o nome | "O celular peça por peça, com os nomes em português" | 2 minutos |
+| `/stick-figure` | Bonecos palito num mundo de desenho animado, com música e efeitos sonoros feitos em código. O seu personagem (cabelo, pele, roupa, acessórios, jeito e voz) fica numa ficha e volta em qualquer vídeo; num diálogo, cada um fala com a própria voz e a boca mexe nas palavras | "Crie a Dona Rosa, dona da padaria: coque grisalho, avental e óculos, voz pf_dora. Depois, um diálogo de 15 segundos dela com um cliente sobre o pão de queijo" | 16 minutos para 15 segundos |
 
-Tempos medidos em 19/11/2026, num notebook com o processador limitado a 2 núcleos, para vídeos de 4 segundos.
+Tempos medidos em 19/11/2026, num notebook com o processador limitado a 2 núcleos: vídeos de 4 segundos nas três primeiras, o diálogo de 15 segundos do Beto e da Duda no `/stick-figure`. A folha de poses de um personagem sai em 2 segundos, então você ajusta o visual à vontade antes de renderizar.
 
-O mesmo pacote traz outras animações (passos em arte de linha, estilos low-poly, Minecraft e Kurzgesagt, e dois explicadores completos com bonecos e personagens 3D) para quem quiser explorar depois do curso. Os explicadores ainda precisam do bash no Windows.
+**Personagens no `/stick-figure`:** cada personagem é uma ficha (`personagens/nome.json`) guardada na pasta `personagens` da sua pasta pessoal. As vozes possíveis: Kokoro (grátis, roda no seu computador, em português: `pf_dora`, `pm_alex` e `pm_santa`), Gemini (grátis com limite diário, como a voz Kore), ElevenLabs (paga por caractere) ou a sua própria gravação, fala por fala.
+
+O mesmo pacote traz outras animações (passos em arte de linha, estilos low-poly, Minecraft e Kurzgesagt, e um explicador completo com personagens 3D) para quem quiser explorar depois do curso. O explicador 3D ainda precisa do bash no Windows.
 
 Na aula, o agente instala as skills com:
 
 ```bash
 git clone https://github.com/fberbert/claude-animation-skills.git
 cd claude-animation-skills
-python3 install.py
+python3 install.py --voice
 ```
 
-No Windows, troque `python3` por `py`. O `install.py` coloca as skills em `~/.claude/skills`, que o omp lê.
+No Windows, troque `python3` por `py`. O `install.py` coloca as skills em `~/.claude/skills`, que o omp lê. O `--voice` baixa uma vez, cerca de 1,3 GB, a voz grátis (Kokoro) e a marcação das palavras na voz (Parakeet), usadas pelo `/stick-figure`.
 
 ## Fontes
 

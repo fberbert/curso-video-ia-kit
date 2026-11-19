@@ -16,18 +16,20 @@ Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA,
 
 ## O que você leva para casa
 
-- Um vídeo vertical de 45 a 60 segundos, seu, publicado (Reels, Shorts, TikTok ou Status do WhatsApp).
+- Um vídeo vertical seu, publicado (Reels, Shorts, TikTok ou Status do WhatsApp): de 45 a 60 segundos nos projetos A e B, de cerca de 15 segundos no projeto C.
 - A pasta do seu projeto, pronta para repetir o processo no próximo vídeo.
+- O seu personagem em bonecos palito, com visual e voz próprios, salvo para aparecer nos próximos vídeos.
 - Os pedidos-modelo de cada etapa ("o que digitar para o agente") e os checklists.
 - A tabela de provedores de IA e custos, para manter a produção barata depois do curso.
 - Certificado de 8 horas e acesso ao grupo da turma.
 
-## Dois tipos de projeto
+## Três tipos de projeto
 
 | Projeto | Como é | Para quem |
 |---|---|---|
 | A - Sem aparecer | Narração, telas animadas e fotos | Canal, conteúdo com dados, quem não gosta de câmera |
 | B - Aparecendo | Você grava falando no celular; o agente corta os silêncios, deixa na vertical, legenda, nivela o som e põe música | Comércio, profissional liberal, quem vende pela própria imagem |
+| C - Com personagem | Um personagem animado em bonecos palito, criado por você, conversa com outro personagem ou fala direto com o público. A voz é de IA ou a sua | Quem quer um mascote da marca para repetir em todo vídeo, sem aparecer |
 
 ## O que levar
 
