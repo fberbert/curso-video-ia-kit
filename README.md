@@ -1,6 +1,6 @@
-# Vídeo com IA: do zero ao publicado
+# Vídeos e Animações com IA: do zero ao publicado
 
-Material do aluno do curso presencial de criação de vídeo com inteligência artificial, com o Fábio Berbert, em Rio das Ostras (RJ).
+Material do aluno do curso presencial de criação de vídeos e animações com inteligência artificial, com o Fábio Berbert, em Rio das Ostras (RJ).
 
 **Em dois dias de curso presencial, você publica o seu primeiro vídeo feito com IA, sem saber editar: você dirige, a IA produz.**
 
