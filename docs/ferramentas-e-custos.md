@@ -133,7 +133,7 @@ Skills são roteiros de trabalho que o agente segue. O curso usa as skills de an
 
 Tempos medidos em 19/11/2026, num notebook com o processador limitado a 2 núcleos: vídeos de 4 segundos nas três primeiras, o diálogo de 15 segundos do Beto e da Duda no `/stick-figure`. A folha de poses de um personagem sai em 2 segundos, então você ajusta o visual à vontade antes de renderizar.
 
-**Personagens no `/stick-figure`:** cada personagem é uma ficha (`personagens/nome.json`) guardada na pasta `personagens` da sua pasta pessoal. As vozes possíveis: Kokoro (grátis, roda no seu computador, em português: `pf_dora`, `pm_alex` e `pm_santa`), Gemini (grátis com limite diário, como a voz Kore), ElevenLabs (paga por caractere) ou a sua própria gravação, fala por fala.
+**Personagens no `/stick-figure`:** cada personagem é uma ficha (`personagens/nome.json`) guardada na pasta `personagens` do seu projeto. Todo vídeo dentro do projeto encontra o personagem, e ele vai junto quando você faz backup da pasta. Você descreve o personagem ou mostra um desenho dele, e o agente monta a ficha. As vozes possíveis: Kokoro (grátis, roda no seu computador, em português: `pf_dora`, `pm_alex` e `pm_santa`), Gemini (grátis com limite diário, como a voz Kore), ElevenLabs (paga por caractere) ou a sua própria gravação, fala por fala.
 
 O mesmo pacote traz outras animações (passos em arte de linha, estilos low-poly, Minecraft e Kurzgesagt, e um explicador completo com personagens 3D) para quem quiser explorar depois do curso. O explicador 3D ainda precisa do bash no Windows.
 
