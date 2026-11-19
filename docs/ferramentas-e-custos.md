@@ -1,30 +1,63 @@
-# Ferramentas e custos
+# Ferramentas, IAs e custos
 
-Preços consultados nas páginas oficiais em 17/11/2026. Eles mudam: confira antes de assinar.
+Tudo o que é usado no curso: o que cada IA faz, os programas que a IA usa no seu computador para criar o vídeo e quanto custa cada caminho.
 
-## O que instalar (gratuito)
+Preços consultados nas páginas oficiais em 17 e 19/11/2026. Eles mudam: confira antes de assinar.
 
-| Ferramenta | Para quê |
+## Como um vídeo nasce
+
+Você conversa com o **omp**, o agente de IA. Ele pensa com uma IA de texto (ChatGPT, Claude, DeepSeek...) e, para fazer cada parte do vídeo, chama outras IAs e os programas instalados no seu computador:
+
+| Etapa | Quem faz | Com o quê |
+|---|---|---|
+| Pesquisa | A IA de texto | Busca na internet e, com a extensão do omp no Chrome, os sites em que você já está logado |
+| Roteiro | A IA de texto | - |
+| Imagens (capa, ilustrações, fotos tratadas) | `gpt-image-2` (ChatGPT Plus) ou Nano Banana (Gemini) | rembg tira o fundo das fotos |
+| Narração | A sua voz, a voz Kore do Gemini ou a ElevenLabs | ffmpeg limpa o ruído e nivela o volume |
+| Telas animadas (números, gráficos, títulos) | A IA de texto escreve as telas como uma página web (HTML e CSS) | Chrome desenha; Node.js com Playwright grava cada quadro |
+| Corte de silêncios e "éééé" (vídeo gravado) | auto-editor | ffmpeg |
+| Legenda palavra por palavra | O tempo de cada palavra, vindo da voz de IA ou de uma transcrição do áudio | ffmpeg grava a legenda no vídeo |
+| Montagem (telas, voz, música que abaixa na fala, vertical) | Um script em Python | ffmpeg |
+| Avatar falante | HeyGen | ffmpeg encaixa o avatar no vídeo |
+| Ajuste à mão | Você | Kdenlive |
+
+## As IAs: quem faz o quê
+
+### OpenAI (ChatGPT): o padrão do curso
+
+É a IA recomendada para começar: entra no omp só com o login da sua conta, sem cartão internacional, e é a única assinatura que inclui o **`gpt-image-2`**, o gerador de imagens usado no curso.
+
+| Plano | Preço por mês (sem impostos) | Com o omp |
+|---|---|---|
+| Free | R$ 0 | A OpenAI só libera o agente de programação (Codex) no aplicativo de computador, aos poucos. Não testado com o omp |
+| Go | R$ 39,99 | Igual ao Free, com mais uso. Não testado com o omp |
+| **Plus** | **R$ 99,90** | **Recomendado.** Funciona com o omp e inclui o `gpt-image-2` |
+| Pro | R$ 999,90 | Muito mais uso; só para quem produz em volume |
+
+### Anthropic (Claude): a preferida do instrutor para roteiro e telas
+
+No canal Na Tabela, o roteiro e as telas são feitos com o **Claude Opus 5.5**. Na experiência do instrutor, é o modelo mais sensato nas escolhas (que dado mostrar, quando, com que destaque) e o que deixa as telas mais bonitas. No nosso teste, um modelo barato fez telas corretas, mas todas iguais e com cores mal escolhidas.
+
+O Claude não gera imagens. Quem quiser o melhor dos dois mundos usa o Claude para pensar e o ChatGPT Plus para as imagens, pagando as duas assinaturas.
+
+| Plano | Preço por mês |
 |---|---|
-| [omp](https://omp.sh) | O agente de IA: conecta as IAs e executa o trabalho. Licença MIT. Windows, macOS e Linux |
-| ffmpeg | O motor de vídeo: corta, junta, legenda, mistura o som |
-| Python | Os scripts da esteira de vídeo |
-| Google Chrome | Desenha e captura as telas animadas; com a extensão do omp, pesquisa nos sites em que você já está logado |
-| [Kdenlive](https://kdenlive.org/download/) | Editor de vídeo para ajuste manual (opcional) |
+| Pro | R$ 110 (ou R$ 92 por mês no plano anual, R$ 1.100 de uma vez) |
+| Max | R$ 550 (5 vezes o uso do Pro) |
+| Ultra | R$ 1.100 |
 
-O passo a passo de instalação para cada sistema entra neste repositório antes do curso.
+Todos os planos têm limite de uso, e quanto mais forte o modelo, mais rápido o limite acaba.
 
-## A IA por trás do agente
+### Google (Gemini): voz e imagem sem assinatura
 
-O omp é o volante; a IA é o motor. Dá para trocar o motor sem trocar o jeito de trabalhar. São dois caminhos:
+Pela mesma conta do Gmail, no Google AI Studio:
 
-### Padrão: ChatGPT Plus
+- **Voz Kore**: a voz de IA recomendada para quem não quer gravar a própria (detalhes em "Voz e avatar").
+- **Nano Banana 2**: imagens por US$ 0,067 cada (1024 px), para quem não assina o ChatGPT Plus.
 
-- **R$ 99,90 por mês** (sem impostos). Pode cancelar depois do curso.
-- Entra no omp só com o login da sua conta, sem cartão internacional nem recarga em dólar.
-- Inclui o `gpt-image-2`, que gera as imagens e capas.
+Para o agente pensar, o Gemini sai mais caro que DeepSeek e MiMo.
 
-### Econômico: API pré-paga
+### APIs pré-pagas: o caminho econômico
 
 Você coloca créditos em dólar, com cartão internacional, e paga só o que usar. Preço oficial em dólar por milhão de tokens. "Em cache" é o texto que o agente reenvia a cada passo e que o provedor cobra mais barato; num agente, ele é quase todo o volume.
 
@@ -40,16 +73,19 @@ Você coloca créditos em dólar, com cartão internacional, e paga só o que us
 
 - **DeepSeek:** o horário de pico é de segunda a sexta, das 22h à 1h e das 3h às 7h (horário de Brasília). No pico, o preço dobra; fim de semana é sempre fora do pico.
 - **OpenRouter:** uma carteira só para centenas de modelos, com taxa de 5,5% (mínimo de US$ 0,80) na compra de créditos.
-- **Imagens sem assinatura:** o Gemini 3.1 Flash Image (Nano Banana 2) cobra US$ 0,067 por imagem de 1024 px.
 - **Na fatura do cartão** entram também o IOF de compra internacional e o câmbio do banco.
 
-### Quanto custa na prática
+**Quanto custa na prática:** no teste de 18/11/2026, o agente com o Xiaomi MiMo V2.6 Flash criou as 9 telas animadas de um vídeo curto de 41 segundos: leu as instruções, escreveu as telas, conferiu e corrigiu. Foram 72 passos e **US$ 0,24**. O resultado veio correto, mas mais simples que o do Claude Opus. No caminho econômico, a prévia e o seu olhar de diretor contam ainda mais.
 
-Teste de 18/11/2026: o agente, com o Xiaomi MiMo V2.6 Flash, criou as 9 telas animadas de um vídeo curto de 41 segundos. Ele leu as instruções, escreveu as telas, conferiu e corrigiu. Foram 72 passos e **US$ 0,24**. A narração já estava gravada.
+### ElevenLabs: clone da sua voz
 
-O resultado veio correto, mas mais simples que o feito com os modelos mais caros: telas todas do mesmo tipo e cores menos bem escolhidas. No caminho econômico, a prévia e o seu olhar de diretor contam ainda mais.
+É onde o curso demonstra o clone de voz: você grava uma amostra e a IA narra qualquer texto com a sua voz. A alternativa é o clone de voz do Gemini ("voice replication"), para quem quiser testar por conta própria.
 
-## Voz e avatar (opcionais)
+### HeyGen: avatar falante
+
+Cria um avatar com o seu rosto, que fala o texto do vídeo. No curso, aparece só como demonstração.
+
+## Voz e avatar: planos
 
 Para narrar o vídeo, o caminho mais simples é a **sua própria voz**, gravada no celular: o agente corta os silêncios e os "éééé", tira o ruído e nivela o volume. Sem custo.
 
@@ -64,17 +100,33 @@ Sobre o plano grátis do Gemini:
 - O limite de 10 narrações por dia vale por projeto do Google AI Studio e zera às 5h da manhã (horário de Brasília). Os limites do seu projeto aparecem em [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit). Eles podem mudar: confira lá.
 - Cada pedido de narração conta como um, mesmo que você descarte o áudio. Revise o texto antes de gerar.
 - O Google usa o conteúdo enviado no plano grátis para melhorar os produtos dele.
+- Para explorar depois do curso: o Gemini tem cerca de 30 vozes (no curso só testamos três).
 
-Para quem quiser explorar depois do curso: o Gemini tem cerca de 30 vozes (no curso só testamos três) e também clona a sua voz a partir de uma gravação ("voice replication"). No curso, o clone de voz é demonstrado na ElevenLabs.
+## Os programas que a IA usa no seu computador
 
-O avatar aparece no curso só como demonstração.
+Todos gratuitos e disponíveis para Windows, macOS e Linux. **A instalação é feita no curso:** o instrutor demonstra a instalação do omp e, depois, você pede ao próprio agente para instalar o resto.
+
+| Programa | Para que serve |
+|---|---|
+| [omp](https://omp.sh) | O agente de IA: conversa com você, conecta as IAs e executa o trabalho. Licença MIT |
+| Python | A linguagem dos scripts que organizam o vídeo: blocos do roteiro, narração, telas e montagem |
+| ffmpeg | O motor de vídeo e áudio: corta, junta, deixa na vertical, legenda, limpa e nivela o som, mistura a música |
+| Node.js e Playwright | Abrem as telas animadas no Chrome e gravam cada quadro, para virar vídeo |
+| Google Chrome | Desenha as telas animadas. Com a extensão do omp, o agente também pesquisa nos sites em que você já está logado |
+| auto-editor | Encontra e corta os silêncios de um vídeo gravado |
+| rembg | Tira o fundo de fotos (pessoa ou produto recortado sobre o vídeo) |
+| [Kdenlive](https://kdenlive.org/download/) | Editor de vídeo para ajuste à mão. O agente pode entregar o projeto pronto para você mexer (opcional) |
+| adb (Android SDK Platform-Tools) | Manda o vídeo pronto direto para um celular Android. Opcional: no iPhone, use cabo, AirDrop ou WhatsApp Web |
 
 ## Fontes
 
 - ChatGPT no Brasil: https://chatgpt.com/pt-BR/pricing/
+- Codex nos planos do ChatGPT: https://learn.chatgpt.com/docs/pricing
+- Claude no Brasil: https://claude.com/pricing?country=BR
 - DeepSeek: https://api-docs.deepseek.com/quick_start/pricing
 - Xiaomi MiMo: https://mimo.mi.com/docs/en-US/price/pay-as-you-go
 - Qwen (Alibaba Cloud, região internacional): https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - Gemini: https://ai.google.dev/gemini-api/docs/pricing
 - OpenRouter: https://openrouter.ai/docs/faq
+- adb: https://developer.android.com/tools/releases/platform-tools
 - Provedores aceitos pelo omp: https://omp.sh/docs/providers

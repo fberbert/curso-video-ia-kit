@@ -2,8 +2,8 @@
 
 | # | Módulo | Objetivo | Exercício prático |
 |---|---|---|---|
-| 1 | O diretor e a equipe de IA | Entender o que é um agente, o que ele faz sozinho e o que é decisão sua. Perder o medo do terminal | Primeira conversa com o omp; um vídeo de celular vira vertical com legenda |
-| 2 | O motor do agente | Diferença entre assinatura e API pré-paga; trocar de IA no omp; ler o custo de um pedido; quando a assinatura vale a pena (imagens) | Em casa, opcional: repetir um pedido com uma API pré-paga e anotar o custo |
+| 1 | O diretor e a equipe de IA | Entender o que é um agente, o que ele faz sozinho e o que é decisão sua. Instalar o omp e pedir ao próprio agente que instale os outros programas. Perder o medo do terminal | Instalação no seu notebook; primeira conversa com o omp; um vídeo de celular vira vertical com legenda |
+| 2 | As IAs e as ferramentas | O que cada IA faz (ChatGPT, Claude, Gemini, APIs pré-pagas, ElevenLabs, HeyGen) e o que cada programa faz (ffmpeg, Python, Chrome, Node.js...). Assinatura ou API pré-paga; trocar de IA no omp; ler o custo de um pedido | Em casa, opcional: repetir um pedido com uma API pré-paga e anotar o custo |
 | 3 | Pauta e pesquisa | Escolher um assunto que o público quer ver e levantar fatos com fonte | Ficha de pauta do seu vídeo, com links |
 | 4 | Roteiro com alma | Escrever para ser ouvido: gancho, pergunta central, ritmo, chamada | Roteiro de 45 a 60 segundos, lido em voz alta |
 | 5 | Voz | Escolher entre a sua voz, uma voz de IA e um clone; preparar o texto para narração | Narração do roteiro pronta |

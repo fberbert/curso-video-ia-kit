@@ -1,6 +1,6 @@
 # Contas para criar antes da primeira aula
 
-Crie as contas com calma, em casa, antes do primeiro sábado. Criar conta é grátis em todos os sites abaixo; pagamento, só onde estiver indicado.
+Crie as contas com calma, em casa, antes do primeiro dia de curso. Criar conta é grátis em todos os sites abaixo; pagamento, só onde estiver indicado.
 
 Dicas:
 
@@ -13,12 +13,12 @@ Dicas:
 | Site | Para quê | Custo | Quando |
 |---|---|---|---|
 | [Conta Google](https://accounts.google.com/signup) | YouTube, Chrome e Google AI Studio. Você provavelmente já tem (é o seu Gmail) | Grátis | Antes do curso |
-| [chatgpt.com](https://chatgpt.com) | A IA padrão do curso: o agente pensa, pesquisa e gera imagens por ela | Plano **Plus: R$ 99,90 por mês** | Crie a conta já. **Assine o Plus só na semana do curso** (até 15/01), para não pagar um mês sem usar. Pode cancelar depois |
-| Uma rede para publicar: [Instagram](https://www.instagram.com), [YouTube](https://www.youtube.com), [TikTok](https://www.tiktok.com), Kwai ou WhatsApp | É onde o seu vídeo vai ser publicado no segundo sábado | Grátis | Antes do curso, com o aplicativo logado no celular |
+| [chatgpt.com](https://chatgpt.com) | A IA padrão do curso: o agente pensa, pesquisa e gera imagens por ela | Plano **Plus: R$ 99,90 por mês** | Crie a conta já. **Assine o Plus só na semana do curso**, para não pagar um mês sem usar. Pode cancelar depois |
+| Uma rede para publicar: [Instagram](https://www.instagram.com), [YouTube](https://www.youtube.com), [TikTok](https://www.tiktok.com), Kwai ou WhatsApp | É onde o seu vídeo vai ser publicado no segundo dia | Grátis | Antes do curso, com o aplicativo logado no celular |
 
 ## 2. Opcionais: o caminho econômico (API pré-paga)
 
-Para usar a IA pagando só o que gastar, em vez de assinatura. Precisa de **cartão de crédito internacional**. Crie a conta, mas não coloque créditos antes da aula 1: o caminho econômico é explicado no primeiro sábado. Preços em [ferramentas e custos](ferramentas-e-custos.md).
+Para usar a IA pagando só o que gastar, em vez de assinatura. Precisa de **cartão de crédito internacional**. Crie a conta, mas não coloque créditos antes da aula: o caminho econômico é explicado no primeiro dia. Preços em [ferramentas, IAs e custos](ferramentas-e-custos.md).
 
 | Site | Para quê |
 |---|---|
@@ -42,7 +42,7 @@ Para usar a IA pagando só o que gastar, em vez de assinatura. Precisa de **cart
 
 ## Não precisa de conta
 
-- **omp**, ffmpeg, Python, Chrome e Kdenlive: são instalados no notebook, sem cadastro.
+- **omp** e os programas que ele usa (Python, ffmpeg, Node.js, Chrome, Kdenlive...): são instalados no notebook, na própria aula, sem cadastro.
 - **GitHub:** este material é público e baixa sem conta.
 
 Preços consultados nas páginas oficiais em 17 e 19/11/2026.

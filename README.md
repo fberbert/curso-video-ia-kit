@@ -2,18 +2,17 @@
 
 Material do aluno do curso presencial de criação de vídeo com inteligência artificial, com o Fábio Berbert, em Rio das Ostras (RJ).
 
-**Em dois sábados de manhã, você publica o seu primeiro vídeo feito com IA, sem saber editar: você dirige, a IA produz.**
+**Em dois dias de curso presencial, você publica o seu primeiro vídeo feito com IA, sem saber editar: você dirige, a IA produz.**
 
 Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA, o [omp](https://omp.sh), que roda no seu computador e conversa em português: ele pesquisa, escreve o roteiro, narra, desenha as telas, monta, legenda e deixa o arquivo pronto para publicar. O seu papel é o de diretor: pedir bem, conferir a prévia e aprovar.
 
-## Turma 1
+## O curso
 
 | | |
 |---|---|
-| Datas | Sábados, 16 e 23 de janeiro de 2027 |
-| Horário | Das 8h30 às 12h30 (8 horas no total), com tarefa de casa entre os dois sábados |
-| Local | Rio das Ostras (RJ); endereço a confirmar |
-| Turma | Até 12 alunos, com instrutor e monitor |
+| Formato | Presencial, em dois dias de 4 horas (8 horas no total), com tarefa de casa entre eles |
+| Local | Clínica Integra: Rua Bangu, 881, Novo Rio das Ostras, Rio das Ostras (RJ), CEP 28893-443 |
+| Turmas | Até 10 alunos, com instrutor e monitor |
 
 ## O que você leva para casa
 
@@ -35,15 +34,16 @@ Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA,
 - Notebook com carregador: Windows 10 ou 11, macOS ou Linux. Se você não tiver, existe a vaga em dupla (duas pessoas, um notebook).
 - Celular com cabo.
 - Fone de ouvido.
-- Uma assinatura de IA ativa no mês do curso: veja [ferramentas e custos](docs/ferramentas-e-custos.md).
-- As contas criadas antes do primeiro sábado: veja a [lista de contas](docs/contas.md).
+- Uma assinatura de IA ativa no mês do curso: veja [ferramentas, IAs e custos](docs/ferramentas-e-custos.md).
+- As contas criadas antes do primeiro dia: veja a [lista de contas](docs/contas.md). Os programas são instalados na própria aula.
 
 ## Neste repositório
 
 | Arquivo | Conteúdo |
 |---|---|
 | [docs/contas.md](docs/contas.md) | Os sites em que você cria conta antes da primeira aula |
-| [docs/cronograma.md](docs/cronograma.md) | Os dois sábados, bloco a bloco |
-| [docs/ferramentas-e-custos.md](docs/ferramentas-e-custos.md) | O que instalar, contas e quanto custa cada caminho |
+| [docs/cronograma.md](docs/cronograma.md) | Os dois dias, bloco a bloco |
+| [docs/ementa.md](docs/ementa.md) | Módulos, objetivos e exercícios |
+| [docs/ferramentas-e-custos.md](docs/ferramentas-e-custos.md) | O que cada IA e cada programa faz no vídeo, e quanto custa cada caminho |
 
-O kit de instalação (instalador, regras do agente, modelos e arquivos de exercício) entra aqui antes do curso, com o passo a passo do pré-curso. Este repositório é atualizado a cada mudança no curso.
+A instalação é feita no primeiro dia: o instrutor demonstra a instalação do omp e o próprio agente instala o resto. As regras do agente, os modelos e os arquivos de exercício entram neste repositório antes do curso. Ele é atualizado a cada mudança no curso.
