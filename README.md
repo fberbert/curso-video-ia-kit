@@ -12,7 +12,7 @@ Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA,
 |---|---|
 | Formato | Presencial, em dois dias de 4 horas (8 horas no total), com tarefa de casa entre eles |
 | Local | Clínica Integra: Rua Bangu, 881, Novo Rio das Ostras, Rio das Ostras (RJ), CEP 28893-443 |
-| Turmas | Até 10 alunos, com instrutor e monitor |
+| Turmas | Até 12 alunos, com instrutor e monitor |
 
 ## O que você leva para casa
 
