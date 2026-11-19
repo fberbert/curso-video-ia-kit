@@ -36,13 +36,14 @@ Você não aprende um editor de vídeo. Aprende a trabalhar com um agente de IA,
 - Celular com cabo.
 - Fone de ouvido.
 - Uma assinatura de IA ativa no mês do curso: veja [ferramentas e custos](docs/ferramentas-e-custos.md).
+- As contas criadas antes do primeiro sábado: veja a [lista de contas](docs/contas.md).
 
 ## Neste repositório
 
 | Arquivo | Conteúdo |
 |---|---|
+| [docs/contas.md](docs/contas.md) | Os sites em que você cria conta antes da primeira aula |
 | [docs/cronograma.md](docs/cronograma.md) | Os dois sábados, bloco a bloco |
-| [docs/ementa.md](docs/ementa.md) | Módulos, objetivos e exercícios |
 | [docs/ferramentas-e-custos.md](docs/ferramentas-e-custos.md) | O que instalar, contas e quanto custa cada caminho |
 
 O kit de instalação (instalador, regras do agente, modelos e arquivos de exercício) entra aqui antes do curso, com o passo a passo do pré-curso. Este repositório é atualizado a cada mudança no curso.
