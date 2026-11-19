@@ -15,6 +15,7 @@ Você conversa com o **omp**, o agente de IA. Ele pensa com uma IA de texto (Cha
 | Imagens (capa, ilustrações, fotos tratadas) | `gpt-image-2` (ChatGPT Plus) ou Nano Banana (Gemini) | rembg tira o fundo das fotos |
 | Narração | A sua voz, a voz Kore do Gemini ou a ElevenLabs | ffmpeg limpa o ruído e nivela o volume |
 | Telas animadas (números, gráficos, títulos) | A IA de texto escreve as telas como uma página web (HTML e CSS) | Chrome desenha; Node.js com Playwright grava cada quadro |
+| Animações prontas (gráfico com número contando, rota em mapa 3D, produto se abrindo peça por peça) | As [skills de animação](#skills-de-animação): a IA só preenche os dados | HyperFrames, GSAP e three.js desenham; ffmpeg grava |
 | Corte de silêncios e "éééé" (vídeo gravado) | auto-editor | ffmpeg |
 | Legenda palavra por palavra | O tempo de cada palavra, vindo da voz de IA ou de uma transcrição do áudio | ffmpeg grava a legenda no vídeo |
 | Montagem (telas, voz, música que abaixa na fala, vertical) | Um script em Python | ffmpeg |
@@ -117,6 +118,30 @@ Todos gratuitos e disponíveis para Windows, macOS e Linux. **Instale antes da p
 | rembg | Tira o fundo de fotos (pessoa ou produto recortado sobre o vídeo) |
 | [Kdenlive](https://kdenlive.org/download/) | Editor de vídeo para ajuste à mão. O agente pode entregar o projeto pronto para você mexer (opcional) |
 | adb (Android SDK Platform-Tools) | Manda o vídeo pronto direto para um celular Android. Opcional: no iPhone, use cabo, AirDrop ou WhatsApp Web |
+
+### Skills de animação
+
+Skills são roteiros de trabalho que o agente segue. O curso usa as skills de animação do Artem Novitckii (licença MIT), [adaptadas para o português](https://github.com/fberbert/claude-animation-skills): números no formato brasileiro, textos em português e instalação também no Windows. Você passa poucos dados e recebe o vídeo vertical pronto, em segundos ou em poucos minutos, no seu computador e sem custo de IA além do pedido.
+
+| Skill | O que faz | Exemplo de pedido | Tempo de render no nosso teste |
+|---|---|---|---|
+| `/graph` | Uma linha que se desenha enquanto o número conta até o valor final | "Gráfico do faturamento de maio a novembro: 8,2, 9,1, 8,7, 10,4, 12,9, 15,3 e 18,8 mil reais" | 10 segundos |
+| `/map-route` | Uma cidade em 3D, a rota se desenhando, o pino caindo e o cartão com tempo e distância | "Rota da loja até a casa do cliente: 4,5 km, 18 minutos" | 2 minutos |
+| `/breakdown` | Um objeto se abrindo em camadas, cada peça com o nome | "O celular peça por peça, com os nomes em português" | 2 minutos |
+
+Tempos medidos em 19/11/2026, num notebook com o processador limitado a 2 núcleos, para vídeos de 4 segundos.
+
+O mesmo pacote traz outras animações (passos em arte de linha, estilos low-poly, Minecraft e Kurzgesagt, e dois explicadores completos com bonecos e personagens 3D) para quem quiser explorar depois do curso. Os explicadores ainda precisam do bash no Windows.
+
+Na aula, o agente instala as skills com:
+
+```bash
+git clone https://github.com/fberbert/claude-animation-skills.git
+cd claude-animation-skills
+python3 install.py
+```
+
+No Windows, troque `python3` por `py`. O `install.py` coloca as skills em `~/.claude/skills`, que o omp lê.
 
 ## Fontes
 

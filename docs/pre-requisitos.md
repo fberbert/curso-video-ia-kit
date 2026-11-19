@@ -13,10 +13,11 @@ Travou em algum passo? Traga o notebook assim mesmo. No começo da aula, o instr
 | ffmpeg | O motor de vídeo e áudio | Sim |
 | Node.js (versão 20 ou mais nova) | Grava as telas animadas quadro a quadro | Sim |
 | Google Chrome | Desenha as telas animadas e é o navegador que o agente usa | Sim |
+| Git | Baixa e atualiza o material do curso e as skills de animação | Sim |
 | Kdenlive | Editor de vídeo para ajuste à mão | Não |
 | adb (Android Platform-Tools) | Manda o vídeo para um celular Android | Não |
 
-Os complementos que rodam por cima desses programas (bibliotecas do Python, o Playwright do Node.js e a extensão do omp no Chrome) são instalados na aula, pelo próprio agente.
+Os complementos que rodam por cima desses programas (bibliotecas do Python, o Playwright do Node.js, a extensão do omp no Chrome e as skills de animação) são instalados na aula, pelo próprio agente.
 
 O notebook precisa de Windows 10 ou 11, macOS ou Linux, e de uns 10 GB livres no disco.
 
@@ -36,6 +37,7 @@ O notebook precisa de Windows 10 ou 11, macOS ou Linux, e de uns 10 GB livres no
    winget install -e --id Gyan.FFmpeg
    winget install -e --id OpenJS.NodeJS.LTS
    winget install -e --id Google.Chrome
+   winget install -e --id Git.Git
    ```
 
    Opcionais:
@@ -69,7 +71,7 @@ Se aparecer "winget não é reconhecido", atualize o **Instalador de Aplicativo*
 4. Instale os outros programas:
 
    ```bash
-   brew install python@3.13 ffmpeg node
+   brew install python@3.13 ffmpeg node git
    brew install --cask google-chrome
    ```
 
@@ -84,11 +86,11 @@ Se aparecer "winget não é reconhecido", atualize o **Instalador de Aplicativo*
 ## Linux (Ubuntu, Linux Mint e Debian)
 
 1. Abra o **Terminal** (Ctrl + Alt + T no Ubuntu e no Mint).
-2. Instale o Python, o ffmpeg e o curl:
+2. Instale o Python, o ffmpeg, o curl e o Git:
 
    ```bash
    sudo apt update
-   sudo apt install -y python3 python3-venv python3-pip ffmpeg curl
+   sudo apt install -y python3 python3-venv python3-pip ffmpeg curl git
    ```
 
 3. Instale o Node.js. O que vem no Ubuntu 24.04 é a versão 18, antiga demais para o curso; este comando instala a versão atual:
@@ -131,13 +133,14 @@ Com o terminal aberto de novo, rode um comando por vez. Cada um deve responder c
 | Python | `py -3.13 --version` | `python3.13 --version` | `python3 --version` |
 | ffmpeg | `ffmpeg -version` | `ffmpeg -version` | `ffmpeg -version` |
 | Node.js | `node --version` (20 ou mais) | `node --version` (20 ou mais) | `node --version` (20 ou mais) |
+| Git | `git --version` | `git --version` | `git --version` |
 
 Algum respondeu "não encontrado" ou "não é reconhecido"? Anote qual foi e traga o notebook: resolvemos no começo da aula.
 
 ## Antes da aula, também
 
 - Crie as contas da [lista de contas](contas.md).
-- Baixe este material: no alto da página do repositório, clique em **Code** e depois em **Download ZIP**.
+- Baixe este material: `git clone https://github.com/fberbert/curso-video-ia-kit.git` no terminal, ou, sem o Git, clique em **Code** e depois em **Download ZIP** no alto da página do repositório.
 
 ## Fontes
 

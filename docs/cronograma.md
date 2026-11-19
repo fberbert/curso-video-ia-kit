@@ -26,7 +26,7 @@ Meta do dia: publicar o vídeo antes do fim da aula.
 | Min | Bloco | O que acontece |
 |---|---|---|
 | 15 | Retomada | Rascunhos no telão: o que funcionou e os erros mais comuns |
-| 45 | Visual | Telas animadas com a sua identidade (cores, fonte, logo), fotos próprias, imagem gerada por IA, foto com licença livre e crédito. Você confere as telas numa folha de quadros antes de renderizar |
+| 45 | Visual | Telas animadas com a sua identidade (cores, fonte, logo), fotos próprias, imagem gerada por IA, foto com licença livre e crédito. Animações prontas, a partir de poucos dados: gráfico com o número contando (`/graph`), rota num mapa 3D (`/map-route`) e um produto se abrindo peça por peça (`/breakdown`). Você confere as telas numa folha de quadros antes de renderizar |
 | 45 | Montagem e acabamento | Legenda palavra por palavra, música que abaixa na fala, corte de silêncio, formato vertical. Você aplica os ajustes anotados e manda renderizar a versão final |
 | 20 | Intervalo | O vídeo renderiza enquanto a turma toma café |
 | 25 | Demonstração: o nível avançado | Avatar falante (HeyGen), clone de voz e dublagem em outro idioma (ElevenLabs) e ajuste manual no Kdenlive, com o custo de cada coisa |
